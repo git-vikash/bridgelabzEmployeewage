@@ -4,7 +4,8 @@ echo "Welcome To EmployeeWage Simulation"
 
 #CONTANT
 WAGE_PER_HOUR=20
-FULL_DAY_HOUR=8
+PART_TIME_HOUR=4
+FULL_TIME_HOUR=8
 
 dailyWage=$(( WAGE_PER_HOUR * FULL_DAY_HOUR ))
 
